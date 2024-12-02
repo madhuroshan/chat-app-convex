@@ -26,7 +26,7 @@ export const createUser = mutation({
   },
 });
 
-const readUser = query({
+export const readUser = query({
   args: {
     userId: v.string(),
   },
